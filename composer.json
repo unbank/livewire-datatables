@@ -1,51 +1,41 @@
 {
-    "name": "mediconesystems/livewire-datatables",
+    "name": "unbank/livewire-datatables",
     "description": "Advanced datatables using Laravel, Livewire, Tailwind CSS and Alpine JS",
     "keywords": [
         "php",
         "laravel",
         "livewire"
     ],
-    "homepage": "https://github.com/mediconesystems/livewire-datatables",
+    "homepage": "https://github.com/unbank/livewire-datatables",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
-            "name": "Mark Salmon",
-            "email": "mark.salmon@mediconesystems.com",
-            "role": "Developer"
-        },
-        {
-            "name": "Shane Burrell",
-            "email": "shane@shaneburrell.com",
-            "role": "Developer"
-        },
-        {
-            "name": "Herbert Maschke",
-            "email": "thyseus@pm.me",
+            "name": "Muhammad Umar",
+            "email": "umar@zealtouch.org",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^8.0",
-        "illuminate/support": "^7.0|^8.0|^9.0|^10.0",
+        "php": "^8.0|^8.2|^8.3",
+        "illuminate/support": "^7.0|^8.0|^9.0|^10.0|^11.0|^12.0",
         "livewire/livewire": "^2.4.4",
         "maatwebsite/excel": "^3.1",
         "reedware/laravel-relation-joins": "^2.4|^3.0|^4.0"
     },
     "require-dev": {
         "laravel/legacy-factories": "^1.0.4",
-        "orchestra/testbench": "^4.0|5.0|6.0|^7.0|^8.0",
-        "phpunit/phpunit": "^8.0|9.0|^9.5.10"
+        "orchestra/testbench": "^4.0|5.0|6.0|^7.0|^8.0|^9.0",
+        "phpunit/phpunit": "^8.0|9.0|^9.5.10|^10.5"
     },
     "autoload": {
         "psr-4": {
-            "Mediconesystems\\LivewireDatatables\\": "src"
+            "unbank\\LivewireDatatables\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Mediconesystems\\LivewireDatatables\\Tests\\": "tests"
+            "unbank\\LivewireDatatables\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -58,10 +48,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Mediconesystems\\LivewireDatatables\\LivewireDatatablesServiceProvider"
+                "unbank\\LivewireDatatables\\LivewireDatatablesServiceProvider"
             ],
             "aliases": {
-                "LivewireDatatables": "Mediconesystems\\LivewireDatatables\\LivewireDatatablesFacade"
+                "LivewireDatatables": "unbank\\LivewireDatatables\\LivewireDatatablesFacade"
             }
         }
     },
