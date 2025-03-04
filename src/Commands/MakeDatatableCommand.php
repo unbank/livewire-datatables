@@ -3,10 +3,10 @@
 namespace Mediconesystems\LivewireDatatables\Commands;
 
 use Illuminate\Support\Facades\File;
-use Livewire\Commands\FileManipulationCommand;
+use Illuminate\Console\Command;
 use Livewire\LivewireComponentsFinder;
 
-class MakeDatatableCommand extends FileManipulationCommand
+class MakeDatatableCommand extends Command
 {
     protected $signature = 'make:livewire-datatable {name} {--model=}';
 
