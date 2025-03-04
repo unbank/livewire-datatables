@@ -30,12 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "unbank\\LivewireDatatables\\": "src"
+            "Mediconesystems\\LivewireDatatables\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "unbank\\LivewireDatatables\\Tests\\": "tests"
+            "Mediconesystems\\LivewireDatatables\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -48,10 +48,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "unbank\\LivewireDatatables\\LivewireDatatablesServiceProvider"
+                "Mediconesystems\\LivewireDatatables\\LivewireDatatablesServiceProvider"
             ],
             "aliases": {
-                "LivewireDatatables": "unbank\\LivewireDatatables\\LivewireDatatablesFacade"
+                "LivewireDatatables": "Mediconesystems\\LivewireDatatables\\LivewireDatatablesFacade"
             }
         }
     },
